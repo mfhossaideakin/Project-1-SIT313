@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Menu - Specials OF THE DAY!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textSize="30dp"
+        android:paddingLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#ffeceff1"
+        android:layout_marginBottom="80dp" />
+    <TextView
+        android:text="FISH AND CHIPS!!! "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="40dp"
+        android:textColor="#ffffee58"
+        android:paddingLeft="30dp" />
+    <TextView
+        android:text="Buy 2 for the PRICE OF 1 !!!"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="30dp"
+        android:paddingLeft="10dp"
+        android:textColor="#ffe53935" />
+    <TextView
+        android:text="Used Promo code either instore or online now!"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textStyle="italic"
+        android:textColor="#ffb0bec5"
+        android:layout_marginTop="60dp"
+        android:paddingLeft="10dp" />
+    <TextView
+        android:text=": BB2803F"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:paddingLeft="150dp"
+        android:textStyle="italic"
+        android:textColor="#ff90a4ae" />
+    <Button
+        android:text="HOME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="50dp" />
+</LinearLayout>

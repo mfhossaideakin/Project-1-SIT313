@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+    <TextView
+        android:text="About Us"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:typeface="sans"
+        android:layout_marginTop="60dp"
+        android:paddingLeft="125dp"
+        android:layout_marginBottom="80dp" />
+    <TextView
+        android:text="Black Boat was founded with only one reason. The reason to make all customers satisfied with the great taste and amount of our food with fine drinks and live entertainment. Black Boat was founded by Faisal Hossain in 1994 and ever since, it became on of the top 10 best restaurant in Victoria, Australia. Black Boat has became so successful with its fine dining because not that the restaurant is on a street, it is on a boat! Please do bring your love ones and enjoy a special lunch or dinner with us on our very boat. Please call upon bookings."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textStyle="italic"
+        android:typeface="sans"
+        android:textColor="#ffb0bec5"
+        android:paddingLeft="2dp"
+        android:textSize="17dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+    <Button
+        android:text="HOME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="50dp" />
+</LinearLayout>
